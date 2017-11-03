@@ -4,6 +4,7 @@ function addElementToBeginningOfArray (array, element) {
   return [element, ...array]
 }
 
-function destructivelyAddElementToEndOfArray() {
+function destructivelyAddElementToEndOfArray(array, element) {
   array.upshift(element)
+  return array
 }
